@@ -1,7 +1,23 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.2/schema.json",
     "version": "v1.2",
-    "name": "blog-helper-agent",
-    "description": "Declarative agent created with Teams Toolkit",
-    "instructions": "$[file('instruction.txt')]"
+    "name": "Blog helper agent",
+    "description": "Declarative agent that supports the authoring, reviews and creation of blog posts.",
+    "instructions": "$[file('instruction.txt')]",
+    "capabilities": [
+        {
+            "name": "WebSearch",
+            "sites": [
+              {
+                "url": "https://pkbullock.com"
+              }
+            ]
+          },
+          {
+            "name": "GraphicArt"
+          },
+          {
+            "name": "CodeInterpreter"
+          }
+    ]
 }
