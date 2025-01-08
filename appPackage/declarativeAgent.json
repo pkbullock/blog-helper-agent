@@ -31,7 +31,19 @@
         },
         {
             "title": "Show a code sample",
-            "text": "In the blog post titled `The many ways to set UK Locale in SharePoint.`, is there a code sample?"
+            "text": "In the blog post titled 'The many ways to set UK Locale in share point', get a list of code samples and display in table format with title and description of each sample"
+        },
+        {
+            "title": "Find a blog about...",
+            "text": "Find a blog post titled 'Understanding the user experience of using an agent in share point in Teams chat' and show a list of sample code?"
+        },
+        {
+            "title": "Find and Review",
+            "text": "Find & Review the blog post titled 'Extending your Graph Connector to a Microsoft 365 Copilot Agent', check for grammer errors"
+        },
+        {
+            "title": "Create an Introduction",
+            "text": "I want to create a new post and would like you to suggest an introduction about to [post about declarative agents]"
         }
     ]
 }
