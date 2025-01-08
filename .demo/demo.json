@@ -1,0 +1,70 @@
+{
+  "$schema": "https://demotime.elio.dev/demo-time.schema.json",
+  "title": "Presentation to demostrate the declarative agent",
+  "description": "Demo description",
+  "demos": [
+    {
+      "title": "Set and Start",
+      "steps":[
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "markdownPreview",
+          "path": "README.md"
+        }
+      ]
+    },
+    {
+      "title": "Highlight Name and Description",
+      "description": "Show the capabilities section",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "appPackage/declarativeAgent.json",
+          "position": "4:5"
+        }
+      ]
+    },
+    {
+      "title": "Highlight Instructions & show file",
+      "description": "To show the audience the layout of the declarative agent",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "appPackage/declarativeAgent.json",
+          "position": "6"
+        },
+        {
+          "action": "waitForInput"
+        },
+        {
+          "action": "open",
+          "path": "appPackage/instruction.txt"
+        }
+      ]
+    },
+    {
+      "title": "Highlight refernece to website",
+      "description": "Show the capabilities section",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "appPackage/declarativeAgent.json",
+          "position": "7:22"
+        }
+      ]
+    },
+    {
+      "title": "Understand Conversation Starters section",
+      "description": "Show the tips to get this started section",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "appPackage/declarativeAgent.json",
+          "position": "23:49"
+        }
+      ]
+    }
+  ]
+}
