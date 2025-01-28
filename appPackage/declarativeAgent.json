@@ -31,11 +31,11 @@
         },
         {
             "title": "Show a code sample",
-            "text": "In the blog post titled 'The many ways to set UK Locale in share point', get a list of code samples and display in table format with title and description of each sample"
+            "text": "In the blog post titled 'The many ways to set UK Locale in SharePoint', get a list of code samples and display in table format with title and description of each sample"
         },
         {
             "title": "Find a blog about...",
-            "text": "Find a blog post titled 'Understanding the user experience of using an agent in share point in Teams chat' and show a list of sample code?"
+            "text": "Find a blog post titled 'Understanding the user experience of using an agent in SharePoint in Teams chat' and show a list of sample code?"
         },
         {
             "title": "Find and Review",
