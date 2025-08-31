@@ -1,13 +1,13 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
     "manifestVersion": "1.19",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "id": "${{TEAMS_APP_ID}}",
     "developer": {
-        "name": "Teams App, Inc.",
+        "name": "Paul Bullock",
         "websiteUrl": "https://pkbullock.com",
-        "privacyUrl": "https://pkbullock.com/privacy",
-        "termsOfUseUrl": "https://pkbullock.com/termofuse"
+        "privacyUrl": "https://pkbullock.com/community-terms",
+        "termsOfUseUrl": "https://pkbullock.com/community-terms"
     },
     "icons": {
         "color": "color.png",

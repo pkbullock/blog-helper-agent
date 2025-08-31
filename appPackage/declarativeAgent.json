@@ -1,9 +1,9 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.2/schema.json",
-    "version": "v1.2",
+    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.5/schema.json",
+    "version": "v1.5",
     "name": "Blog helper agent",
     "description": "Declarative agent that supports the authoring, reviews and creation of blog posts.",
-    "instructions": "$[file('instruction.txt')]",
+    "instructions": "$[file('instruction.md')]",
     "capabilities": [
         {
             "name": "WebSearch",
@@ -45,5 +45,8 @@
             "title": "Create an Introduction",
             "text": "I want to create a new post and would like you to suggest an introduction about to [post about declarative agents]"
         }
-    ]
+    ],
+    "disclaimer": {
+        "text": "This declarative agent and its samples are provided as is without warranty of any kind, either express or implied, including any implied warranties of fitness for a particular purpose, merchantability, or non-infringement."
+    }
 }
